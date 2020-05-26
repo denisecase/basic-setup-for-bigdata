@@ -37,7 +37,7 @@ Install Chocolatey, the Windows Package Manager from <https://chocolatey.org/> b
 ```PowerShell
 choco install openjdk -y
 choco install 7zip -y
-choco install ananaconda3 --params '"/AddToPath" -y
+choco install anaconda3 --params '"/AddToPath:1"' -y
 choco install apache-zookeeper -y
 choco install curl -y
 choco install git -y
