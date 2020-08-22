@@ -54,6 +54,10 @@ choco list -local
 
 ### Verify
 
+After installing, even if you run refreshenv, it can be a good idea to close that PowerShell window and reopen a new PowerShell window. (This is especially needed to complete the OpenJDK installation. 
+
+In a new PowerShell window, run:
+
 ```PowerShell
 choco list -local
 ```
@@ -68,6 +72,8 @@ java --version
 python --version
 
 ```
+
+**Troubleshooting**: If the java command does not work, be sure you have closed your PowerShell window used to install OpenJDK, and opened a new PowerShell window. 
 
 ### Upgrade Periodically
 
