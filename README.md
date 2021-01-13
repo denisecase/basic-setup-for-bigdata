@@ -73,7 +73,7 @@ python --version
 
 ```
 
-**Troubleshooting**: If the java command does not work, be sure you have closed your PowerShell window used to install OpenJDK, and opened a new PowerShell window. 
+**Troubleshooting**: If a version command does not work, be sure you have closed your PowerShell window, and opened a new PowerShell window. You may also try restarting your machine. 
 
 ### Upgrade Periodically
 
