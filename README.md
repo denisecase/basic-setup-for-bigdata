@@ -9,9 +9,7 @@
 
 - [Windows Setup for Developers](https://github.com/denisecase/windows-setup)
 - [Windows File Management](https://github.com/denisecase/windows-file-management)
-
-Right-click on your Desktop, and select 'Open PowerShell as Administrator'.
-If you don't have this option, see [Windows Setup for Developers](https://github.com/denisecase/windows-setup).
+- Add 'Open PowerShell here as Administrator' to your Windows folder context (right-click) menu. If you don't have this yet, see [the ten forumns option](https://www.tenforums.com/tutorials/60177-add-open-powershell-window-here-administrator-windows-10-a.html).
 
 ## Read about Windows Software Automation
 
