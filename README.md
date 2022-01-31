@@ -38,7 +38,7 @@ No need to reinstall programs you already have. Doing so can add them to your pa
 If your path has multiple JAVA entries, Java will simiply fail. Monitor your path variables and know where your software installs. 
 
 ```PowerShell
-choco install miniconda3 -y
+choco install miniconda3 --params="'/AddToPath:1'"
 choco install openjdk -y
 choco install 7zip -y
 choco install curl -y
