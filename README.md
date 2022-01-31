@@ -102,7 +102,10 @@ not been activated. Libraries may fail to load. To activate this environment
 please see https://conda.io/activation.
 ```
 
-If you receive this warning, you need to activate your environment. To do so on Windows, run: `c:\Anaconda3\Scripts\activate base` in Anaconda Prompt.
+If you receive this warning, you need to activate your environment. 
+To do so on Windows, run: `c:\Anaconda3\Scripts\activate base` in Anaconda Prompt 
+or `C:\tools\miniconda3\Scripts\activate base` if you installed with Chocolatey. 
+Understand your installation locations and review your User and System Environment Variables, especially the path. 
 
 ## Terms
 
