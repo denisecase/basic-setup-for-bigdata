@@ -26,13 +26,19 @@ Install Chocolatey, the Windows Package Manager from <https://chocolatey.org/> b
 - The -y flag is optional and automatically answers 'yes' to install questions.
 - Use 'refreshenv' to update ennviroment variables as needed.
 - You can combine multiple packages into a single 'choco install' command - just separate each package with a space.
-- See available software at <https://chocolatey.org/packages>.
+- See available packages at <https://chocolatey.org/packages>.
 - See local software at <C:\ProgramData\chocolatey>.
 - See local install log at <C:\ProgramData\chocolatey\logs\chocolatey.log>.
+- See also <C:\tools>
 
 ## Install Common Big Data Tools using Chocolatey
 
+No need to reinstall programs you already have. Doing so can add them to your path multiple times. 
+
+If your path has multiple JAVA entries, Java will simiply fail. Monitor your path variables and know where your software installs. 
+
 ```PowerShell
+choco install miniconda3 -y
 choco install openjdk -y
 choco install 7zip -y
 choco install curl -y
@@ -82,6 +88,22 @@ refreshenv
 ## Install Without Chocolatey
 
 Alternatively, each tool can be installed in the traditional manner. Just go to the website for the software and follow instructions to download, install, and configure tools using provided installers.
+
+## Activating Python Environment
+
+- [Managing Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- [Activating Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment)
+
+You may receive a warning message if you have not activated your Conda environment:
+
+```
+Warning: 
+This Python interpreter is in a conda environment, but the environment has
+not been activated. Libraries may fail to load. To activate this environment
+please see https://conda.io/activation.
+```
+
+If you receive this warning, you need to activate your environment. To do so on Windows, run: `c:\Anaconda3\Scripts\activate base` in Anaconda Prompt.
 
 ## Terms
 
