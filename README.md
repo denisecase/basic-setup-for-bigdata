@@ -29,7 +29,6 @@ Install Chocolatey, the Windows Package Manager from <https://chocolatey.org/> b
 - See available packages at <https://chocolatey.org/packages>.
 - See local software at <C:\ProgramData\chocolatey>.
 - See local install log at <C:\ProgramData\chocolatey\logs\chocolatey.log>.
-- See also <C:\tools>
 
 ## Install Common Big Data Tools using Chocolatey
 
