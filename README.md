@@ -39,7 +39,7 @@ If your path has multiple JAVA entries, Java will simiply fail. Monitor your pat
 ```PowerShell
 choco install miniconda3 --params="'/AddToPath:1'"
 choco install openjdk -y
-choco install 7-zip -y
+choco install 7zip.install -y
 choco install curl -y
 choco install git -y
 choco install gradle -y
